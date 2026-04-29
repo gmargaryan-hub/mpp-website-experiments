@@ -17,19 +17,12 @@ const companyLinks = [
   { label: 'ACM Paper', href: 'https://dl.acm.org/doi/10.1145/3274856.3274869', external: true },
 ]
 
-const resourceLinks = [
-  { label: 'Technical Overview v11.0', href: '#booking' },
-  { label: 'Architecture Docs', href: '#booking' },
-  { label: 'Integration Guide', href: '#booking' },
-  { label: 'PL/pgSQL Reference', href: '#booking' },
-]
-
 export default function Footer() {
   return (
     <footer className="border-t border-[#1a2a3a] bg-[#0D1B2A]">
       {/* Main footer */}
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
           {/* Brand column — spans 2 cols on lg */}
           <div className="lg:col-span-2 flex flex-col gap-5">
@@ -123,22 +116,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Resources links */}
-          <div>
-            <h4 className="text-xs font-semibold text-white/50 uppercase tracking-widest mb-5">Resources</h4>
-            <ul className="space-y-3">
-              {resourceLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-white/40 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
 

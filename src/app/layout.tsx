@@ -23,7 +23,10 @@ export const metadata: Metadata = {
   title: "MPP BI — Ultra-Fast Analytics. Built Inside Your Data.",
   description:
     "MPP BI is a 2-tier business intelligence platform that runs business logic inside your database using PL/pgSQL stored procedures. 2x–12x faster than Tableau and Power BI. No ETL, no data extraction, no separate BI server. Cloud and on-premises. Starting at $10/seat/month.",
-  keywords: [
+  icons: {
+    icon: '/favicon.ico',
+  },
+    keywords: [
     "BI platform",
     "business intelligence",
     "database analytics",

@@ -125,11 +125,11 @@ export default function Footer() {
           <p className="text-xs text-[#4B5563]">
             © {new Date().getFullYear()} MPP Insights LLC. All rights reserved.
           </p>
-          <div className="flex items-center gap-5 text-xs text-[#4B5563]">
-            <Link href="#" className="hover:text-[#6B7280] transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-[#6B7280] transition-colors">Terms of Service</Link>
-            <Link href="#" className="hover:text-[#6B7280] transition-colors">Cookie Policy</Link>
-          </div>
+          {/* <div className="flex items-center gap-5 text-xs text-[#4B5563]"> */}
+            {/* <Link href="#" className="hover:text-[#6B7280] transition-colors">Privacy Policy</Link> */}
+            {/* <Link href="#" className="hover:text-[#6B7280] transition-colors">Terms of Service</Link> */}
+            {/* <Link href="#" className="hover:text-[#6B7280] transition-colors">Cookie Policy</Link> */}
+          {/* </div> */}
         </div>
       </div>
     </footer>
